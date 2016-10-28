@@ -1,0 +1,19 @@
+{
+  "name": "mixins.css",
+  "version": "1.0.0",
+  "description": "handy CSS mixins in the `@apply` syntax",
+  "main": "index.css",
+  "scripts": {
+    "test": "stylelint index.css"
+  },
+  "keywords": [],
+  "author": "charles peters <charlespeters42@gmail.com> (https://charlespeters.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^7.2.0",
+    "stylelint-config-wilco": "^1.0.2"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-wilco"
+  }
+}
